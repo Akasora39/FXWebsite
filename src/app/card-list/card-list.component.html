@@ -1,0 +1,9 @@
+<ul class="cards list-group">
+  <li *ngFor="let card of list">
+    <a class="list-group-item" [routerLink]="['/cards', card.id]">{{card.id}}: {{card.name}}, {{card.title}}</a>
+  </li>
+</ul>
+
+<div class="justify-content-center">
+  <ngb-pagination [collectionSize]="80" [(page)]="page" (pageChange)="getCards()"></ngb-pagination>
+</div>

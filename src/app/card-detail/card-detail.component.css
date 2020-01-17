@@ -1,0 +1,11 @@
+img {
+    width: 80%;
+    height: auto;
+    margin-top: 5%;
+    object-fit: cover;
+}
+
+.info {
+    margin-top: 5%;
+    width: 60%;
+}

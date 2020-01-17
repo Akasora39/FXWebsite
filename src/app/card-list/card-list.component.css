@@ -1,0 +1,10 @@
+.cards {
+  font-size: 20px;
+  list-style-type: none;
+}
+
+.justify-content-center {
+  margin-top: 3%;
+  display: flex;
+  justify-content: center;
+}
